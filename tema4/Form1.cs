@@ -73,13 +73,13 @@ namespace tema4
 
                 {
                     x1 = x2 = -b / (2 * a);
-                    MessageBox.Show("Solution are " + x1 +" and "+ + x2);
+                    MessageBox.Show("Solution are " + x1.ToString() +" and "+ x2.ToString());
                 }
                 else
                 {
                     x1 = (-b + Math.Sqrt(d)) / (2 * a);
                     x2 = (-b - Math.Sqrt(d)) / (2 * a);
-                    MessageBox.Show("Solutions are" + x1 + " and " + +x2);
+                    MessageBox.Show("Solutions are" + x1.ToString() + " and " + x2.ToString());
                 }
             else
                 MessageBox.Show("No solution");
